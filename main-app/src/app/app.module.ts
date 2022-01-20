@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http'
 import { HashLocationStrategy, LocationStrategy } from '@angular/common'
 
-import { routes } from './app/router'
+import { routes } from './app.router'
 
 
 import { AppRoutingModule } from './app-routing.module';
