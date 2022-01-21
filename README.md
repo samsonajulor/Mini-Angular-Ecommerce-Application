@@ -10,4 +10,8 @@ The main routes include:
 4. Sidebar
 5. About
 
+Designs were implemented by using bootstrap4.
+
+The homepage displays carousels of products.
+
 
