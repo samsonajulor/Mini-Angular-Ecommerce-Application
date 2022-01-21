@@ -10,6 +10,10 @@ import { routes } from './app.router'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { CartComponent } from './cart/cart.component';
+import { ProductsComponent } from './products/products.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 // import { ProductsComponent } from './products/products.component';
 // import { HomeComponent } from './home/homecomponent';
 // import { CartComponent } from './cart/cart.component';
@@ -18,12 +22,17 @@ import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    CartComponent,
+    ProductsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     routes
   ],
   providers: [
