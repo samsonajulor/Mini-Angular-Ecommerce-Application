@@ -47,11 +47,9 @@ import { CheckoutSubtotalComponent } from './COMPONENTS/checkout-subtotal/checko
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
   ],
-  providers: [
-    {provide: LocationStrategy, useClass: HashLocationStrategy}
-  ],
-  bootstrap: [AppComponent]
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
