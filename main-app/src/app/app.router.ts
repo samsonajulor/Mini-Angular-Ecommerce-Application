@@ -4,6 +4,7 @@ import {Routes, RouterModule} from '@angular/router'
 
 export const router: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'checkout', redirectTo: 'checkout', pathMatch: 'full'},
   // {path: 'about', component: AboutComponent},
 ]
 

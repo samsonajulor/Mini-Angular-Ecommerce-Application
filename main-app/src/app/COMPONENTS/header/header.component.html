@@ -23,16 +23,16 @@
         <span class="header_menu_top_item">Returns</span>
         <span class="header_menu_bottom_item">& Orders</span>
       </div>
-      <div class="header_menu_cart">
-        <mat-icon>shopping_cart</mat-icon>
-        <p class="header_cart_number">3</p>
+      <div routerLink="/checkout" class="header_menu_cart">
+          <mat-icon>shopping_cart</mat-icon>
+          <p class="header_cart_number">{{shoppingCart.getCartLength()}}</p>
       </div>
     </div>
   </nav>
   <nav class="header_bottom">
     <div class="header_bottom_location_text">
       <span class="header_left_line_one">Delivery to</span>
-      <span class="header_left_line_two"><strong>Canada</strong></span>
+      <span class="header_left_line_two"><strong>Nigeria</strong></span>
     </div>
   </nav>
 </div>

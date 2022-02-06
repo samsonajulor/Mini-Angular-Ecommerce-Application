@@ -18,6 +18,9 @@ import { FooterComponent } from './COMPONENTS/footer/footer.component';
 import { CheckoutComponent } from './PAGES/checkout/checkout.component';
 import { LoginComponent } from './PAGES/login/login.component';
 import { BannerComponent } from './COMPONENTS/banner/banner.component';
+import { ProductsComponent } from './COMPONENTS/products/products.component';
+import { CheckoutProductsComponent } from './COMPONENTS/checkout-products/checkout-products.component';
+import { CheckoutSubtotalComponent } from './COMPONENTS/checkout-subtotal/checkout-subtotal.component';
 
 
 
@@ -31,6 +34,9 @@ import { BannerComponent } from './COMPONENTS/banner/banner.component';
     CheckoutComponent,
     LoginComponent,
     BannerComponent,
+    ProductsComponent,
+    CheckoutProductsComponent,
+    CheckoutSubtotalComponent,
   ],
   imports: [
     BrowserModule,
