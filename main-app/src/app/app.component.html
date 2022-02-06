@@ -1,35 +1,4 @@
-<div class="row">
-  <div class="col-md-12">
-    <nav class="navbar navbaar-toggleable-md navbar-light bg-faded">
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="#home" class="nav-link">Home <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-2">
-    <br><br><br>
-    <div class="custom-sidebar">
-      <div *ngFor="let item of listItems">
-        <a href="{{item.link}}" *ngIf="item.isNew!==true">{{item.name}}</a>
-        <a href="{{item.link}}" target="_blank" *ngIf="item.isNew===true">{{item.name}}</a>
-      </div>
-      <hr>
-      <div class="add-component-container">
-        <input class="form-control" type="text" placeholder='Title' [(ngModel)]="title">
-        <input class="form-control" type="text" placeholder='url e.g. www.google.com' [(ngModel)]="url">
-        <div class="col-md-10 offset-md-1"></div>
-        <button class="btn btn-primary btn-block" click="add(title, url)">Add Link</button>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-10">
-    <router-outlet></router-outlet>
-  </div>
-</div>
+<app-header></app-header>
+<router-outlet></router-outlet> 
+<app-footer></app-footer>
+<!-- allows the app routing to inject the routed pages -->
