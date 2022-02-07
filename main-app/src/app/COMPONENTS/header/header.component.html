@@ -1,0 +1,31 @@
+<div class="header">
+  <nav class="header_top">
+    <div class="header_menu">
+      <img
+        src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-500x313.png"
+        class="header_menu_logo"
+        alt=""
+      />
+      <div class="header_menu_searchbar">
+        <input type="text" class="header_menu_input" />
+        <div class="header_menu_searchbar_icon">
+          <mat-icon>search</mat-icon>
+        </div>
+      </div>
+      <div class="header_menu_signin">
+        <span class="header_menu_bottom_item">Returns & Orders</span>
+      </div>
+      <div routerLink="/checkout" class="header_menu_cart">
+          <mat-icon>shopping_cart</mat-icon>
+          <p class="header_cart_number">{{shoppingCart.getCartLength()}}</p>
+      </div>
+    </div>
+  </nav>
+  <nav class="header_bottom">
+    <div class="header_bottom_location_text">
+      <span class="header_left_line_one">Delivery to</span>
+      <span class="header_left_line_two"><strong>Nigeria</strong></span>
+    </div>
+  </nav>
+</div>
+

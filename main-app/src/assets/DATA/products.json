@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Samsung Galaxy A12 ",
+    "desc": "6.5 48MP Camera, 4/64GB Memory, 5000maH Battery, Fingerprint, 4G LTE - BLACK",
+    "price": 79000,
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/64/037618/1.jpg?8050",
+    "ratings": 4
+  },
+  {
+    "id": 2,
+    "title": "Itel S17 6.6\"",
+    "desc": "HD+, 16GB ROM + 1GB RAM, 5000mAh, Android 11 8MP Triple Rear Camera, Face ID-Black",
+    "price": 41500,
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/150858/1.jpg?8148",
+    "ratings": 5
+  },
+  {
+    "id": 3,
+    "title": "Samsung Galaxy A12",
+    "desc": "6.5\" 48MP Camera, 4/64GB Memory, 5000maH Battery, Fingerprint, 4G LTE - BLUE",
+    "price": 82000,
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/037618/1.jpg?8184",
+    "ratings": 3
+  },
+  {
+    "id": 4,
+    "title": "Blackview FS",
+    "desc": "Android Smartphone Oscal C20 Dual-SIM 3G 1+32GB 6.088 Inch Screen -Black",
+    "price": 31900,
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/384028/1.jpg?0873",
+    "ratings": 5
+  },
+  {
+    "id": 5,
+    "title": "Gionee M12",
+    "desc": "6.55 Inch HD+ (6GB RAM, 128GB ROM) Android 10 (48MP + 5MP + 2MP + 2MP) + 16MP Dual SIM 4G LTE - Green",
+    "price": 80500,
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/670086/1.jpg?0198",
+    "ratings": 4
+  }
+]
